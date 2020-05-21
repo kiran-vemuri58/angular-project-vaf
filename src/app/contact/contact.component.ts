@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactComponent implements OnInit {
 
-  constructor() { }
+  contactData:object;
 
   ngOnInit(): void {
+    this.contactData = [
+      {
+        name:"kiran vemuri",
+        phone:"8331808889",
+        currentCity:"chennai",
+        homeTown:"nuzvid",
+        email:"kiranchowdary8888@gmail.com"
+      }
+    ]
   }
 
 }

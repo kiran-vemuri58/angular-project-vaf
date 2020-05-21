@@ -1,1 +1,37 @@
-<p>contact works!</p>
+<div class="row">
+    <div class="col-lg-3"></div>
+    <div class="col-lg-6">
+            <img src="../../assets/myPhoto.jpg" class="circle-for-image"  alt="Cinque Terre"/>
+    </div>
+    <div class="col-lg-3"></div>
+</div>
+<div class="row" *ngFor="let data of contactData">
+    <div class="col-lg-3"></div>
+    <div class="col-lg-6">
+        <div class="card position_card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="title col-lg-4">Name:</div>
+                    <div class="data col-lg-3">{{data.name}}</div>
+                </div>
+                <div class="row">
+                    <div class="title col-lg-4">Email:</div>
+                    <div class="data col-lg-5">{{data.email}}</div>
+                </div>
+                <div class="row">    
+                    <div class="title col-lg-4">Phone Number:</div>
+                    <div class="data col-lg-3">{{data.phone}}</div>
+                </div>
+                <div class="row">     
+                    <div class="title col-lg-4">Home Town:</div>
+                    <div class="data col-lg-3">{{data.homeTown}}</div>
+                </div>
+                <div class="row">    
+                    <div class="title col-lg-4">Current City:</div>
+                    <div class="data col-lg-3">{{data.currentCity}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3"></div>
+</div>

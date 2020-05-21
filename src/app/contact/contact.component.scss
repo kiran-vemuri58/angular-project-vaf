@@ -1,0 +1,37 @@
+.circle-for-image{
+    border:1px solid black;
+    border-radius: 50% 50%;
+    height:150px;
+    width:150px;
+    position: relative;
+    left:27%;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+img:hover{
+  transform: rotateY(180deg);
+  transition-duration: 5s;
+}
+
+.card{
+    border-radius: 10px;
+    border:2px solid grey;
+}
+
+.title{
+  font-weight:bold;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.data{
+    font-family: "Times New Roman", Times, serif;
+}
+
+.data:hover{
+    transform: rotateX(360deg);
+    transition-duration: 2s;
+}
+
+
+
